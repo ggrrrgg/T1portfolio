@@ -1,0 +1,125 @@
+$home-color: #fac670;
+$card-color: #DDD4C6;
+$headfoot-color:#F3ECD3;
+
+@mixin headfoot-proper () {
+    background-color: $headfoot-color;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+body {
+    background-color: $home-color;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .images {
+        img {
+            width: 150px;
+            height: 150px;  
+        }
+          
+    }
+    
+
+    .pagecard {
+    background-color: $card-color;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    
+    }
+
+    .explainer {
+    background-color: $card-color;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 16px;
+    box-sizing: border-box;
+    }
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+
+
+    }
+    
+    .nav-items {
+        text-decoration: none;
+    }
+    
+
+}
+
+header {
+    @include headfoot-proper();
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+   
+    
+    .quickcontacts {
+        text-align: left;
+        margin: 0px;
+        .p {
+            margin: ;
+        }
+        }
+    
+    .headlogo {
+       
+       img {
+            height: 40px;
+            width: 40px;
+        }
+       }
+    }
+
+@media screen and (min-width:600px) {
+    main {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        max-width: 70%;
+    }
+    .explainer {
+        max-width: 70%;
+    }
+    .pagecard {
+        max-width: 70%;
+    }
+}
+
+
+
+footer {
+    @include headfoot-proper(); 
+    box-sizing: border-box;
+    
+    .socials {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+
+        a {
+            i {
+                color: #ED7C7C;
+                font-size: 24px;
+            }
+        }
+        
+    }
+}
