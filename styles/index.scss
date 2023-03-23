@@ -4,10 +4,12 @@ $headfoot-color:#F3ECD3;
 
 @mixin headfoot-proper () {
     background-color: $headfoot-color;
-    width: 100%;
-    border: 1px solid;
+    width: 98%;
+    border: 2px solid;
     border-radius: 10px;
     padding: 10px;
+    font-weight: 600;
+    font-family:'Quicksand', sans-serif;
 }
 
 body {
@@ -17,6 +19,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin: 0px;
 
     .images {
         img {
@@ -29,58 +32,136 @@ body {
 
     .pagecard {
     background-color: $card-color;
-    width: 100%;
-    border: 1px solid;
+    width: 98%;
+    border: 2px solid; 
     border-radius: 10px;
     padding: 20px;
     text-align: center;
     box-sizing: border-box;
+
+    h1 {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    }
     
     }
 
     .explainer {
     background-color: $card-color;
-    width: 100%;
-    border: 1px solid;
+    width: 98%;
+    border: 2px solid;
     border-radius: 10px;
     padding: 16px;
     box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+
+    p {
+        margin: 0px;
+    }
     }
 
-    .main {
+    .middle {
+        width: 98%;
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-around;
-
-
+        // align-items: center;
+        justify-content: space-between;
+        
+       
+    h2 {
+        font-family: 'Quicksand', sans-serif;
+        margin-right: 20px;
+        font-weight: 500;
     }
-    
-    .nav-items {
-        text-decoration: none;
-    }
-    
-
 }
+    
+    
+.navspec {   
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 98%;
+
+        .backgline {
+            // margin: 0px;
+            border: 2px solid #ED7C7C;
+            height: 0px;
+            width: 80%;
+            margin-right: 20%;
+            margin-left: 0%;
+            bottom: 0%;
+        }
+        
+        .backg {
+            a {
+        text-decoration: none;
+        font-size: 26px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bolder;
+        color: #ED7C7C;
+        position: relative;
+        }  
+
+        // a::before {
+        //     content: "";
+        //     display: block;
+        //     width: 100px;
+        //     height: 3px;
+        //     position: absolute;
+        //     background: #ED7C7C;
+        //     left: 0%;
+        //     top: 50%;
+        // } 
+        
+
+    }
+    
+    .edu {
+        a {
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    color: #91C3CE;
+    }  
+}
+
+.port {
+    a {
+text-decoration: none;
+font-size: 26px;
+font-family: 'Quicksand', sans-serif;
+font-weight: bolder;
+color: #C0A8E6;
+}  
+}
+
+.resume {
+    a {
+text-decoration: none;
+font-size: 26px;
+font-family: 'Quicksand', sans-serif;
+font-weight: bolder;
+color: #000;
+}  
+}
+}
+
 
 header {
     @include headfoot-proper();
-    margin-bottom: 16px;
+    margin: 8px 8px 16px 8px;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
    
     
     .quickcontacts {
-        text-align: left;
         margin: 0px;
-        .p {
-            margin: ;
-        }
         }
     
     .headlogo {
-       
        img {
             height: 40px;
             width: 40px;
@@ -88,18 +169,33 @@ header {
        }
     }
 
-@media screen and (min-width:600px) {
-    main {
+@media screen and (min-width: 600px) {
+    
+    .middle {
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
         max-width: 70%;
+        font-size: 20px;
     }
     .explainer {
         max-width: 70%;
     }
     .pagecard {
-        max-width: 70%;
+        max-width: 50%;
+        h1 {
+            font-size: 38px;
+        }
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    footer {
+        .socials {
+            width: 55%;
+            margin: auto;
+        }
     }
 }
 
@@ -108,11 +204,12 @@ header {
 footer {
     @include headfoot-proper(); 
     box-sizing: border-box;
+    margin-bottom: 8px;
     
     .socials {
-        text-align: center;
         display: flex;
         justify-content: space-around;
+        align-items: center;
 
         a {
             i {
@@ -122,4 +219,5 @@ footer {
         }
         
     }
+}
 }
