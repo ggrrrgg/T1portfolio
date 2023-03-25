@@ -1,5 +1,5 @@
 body {
-  background-color: #fac670;
+  background-color: #C0A8E6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -54,12 +54,19 @@ body .navspec {
   justify-content: space-between;
   width: 98%;
 }
+body .navspec .home a {
+  text-decoration: none;
+  font-size: 26px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  color: #fac670;
+}
 body .navspec .backg a {
   text-decoration: none;
   font-size: 26px;
   font-family: "Quicksand", sans-serif;
   font-weight: bolder;
-  color: #ED7C7C;
+  color: #ed7c7c;
 }
 body .navspec .edu a {
   text-decoration: none;
@@ -67,13 +74,6 @@ body .navspec .edu a {
   font-family: "Quicksand", sans-serif;
   font-weight: bolder;
   color: #91C3CE;
-}
-body .navspec .blog a {
-  text-decoration: none;
-  font-size: 26px;
-  font-family: "Quicksand", sans-serif;
-  font-weight: bolder;
-  color: #C0A8E6;
 }
 body .navspec .resume a {
   text-decoration: none;
@@ -149,6 +149,6 @@ body footer .socials {
   align-items: center;
 }
 body footer .socials a i {
-  color: #ED7C7C;
+  color: #000;
   font-size: 24px;
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=blog.css.map */

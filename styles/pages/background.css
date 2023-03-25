@@ -1,5 +1,5 @@
 body {
-  background-color: #fac670;
+  background-color: #ed7c7c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -54,12 +54,12 @@ body .navspec {
   justify-content: space-between;
   width: 98%;
 }
-body .navspec .backg a {
+body .navspec .home a {
   text-decoration: none;
   font-size: 26px;
   font-family: "Quicksand", sans-serif;
   font-weight: bolder;
-  color: #ED7C7C;
+  color: #fac670;
 }
 body .navspec .edu a {
   text-decoration: none;
@@ -149,6 +149,6 @@ body footer .socials {
   align-items: center;
 }
 body footer .socials a i {
-  color: #ED7C7C;
+  color: #91C3CE;
   font-size: 24px;
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=background.css.map */
