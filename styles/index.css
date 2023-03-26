@@ -7,9 +7,17 @@ body {
   align-items: center;
   margin: 0px;
 }
+body .images {
+  border: #000 2px solid;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 body .images img {
-  width: 150px;
-  height: 150px;
+  width: 122px;
+  height: 145px;
+  vertical-align: bottom;
 }
 body .pagecard {
   background-color: #DDD4C6;
@@ -19,6 +27,7 @@ body .pagecard {
   padding: 20px;
   text-align: center;
   box-sizing: border-box;
+  overflow: hidden;
 }
 body .pagecard h1 {
   font-weight: bold;
@@ -33,6 +42,8 @@ body .explainer {
   padding: 16px;
   box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
+  margin-bottom: 10px;
+  overflow: hidden;
 }
 body .explainer p {
   margin: 0px;
@@ -90,6 +101,7 @@ body header {
   padding: 10px;
   font-weight: 600;
   font-family: "Quicksand", sans-serif;
+  overflow: hidden;
   margin: 8px 8px 16px 8px;
   box-sizing: border-box;
   display: flex;
@@ -140,6 +152,7 @@ body footer {
   padding: 10px;
   font-weight: 600;
   font-family: "Quicksand", sans-serif;
+  overflow: hidden;
   box-sizing: border-box;
   margin-bottom: 8px;
 }
@@ -151,4 +164,8 @@ body footer .socials {
 body footer .socials a i {
   color: #ED7C7C;
   font-size: 24px;
+  transition: color 1s;
+}
+body footer .socials a i:hover {
+  color: #91C3CE;
 }/*# sourceMappingURL=index.css.map */

@@ -14,6 +14,7 @@ $headfoot-color:#F3ECD3;
     padding: 10px;
     font-weight: 600;
     font-family:'Quicksand', sans-serif;
+    overflow: hidden;
 }
 
 body {
@@ -25,14 +26,6 @@ body {
     align-items: center;
     margin: 0px;
 
-    .images {
-        img {
-            width: 150px;
-            height: 150px;  
-        }
-          
-    }
-    
 
     .pagecard {
     background-color: $card-color;
@@ -42,6 +35,7 @@ body {
     padding: 20px;
     text-align: center;
     box-sizing: border-box;
+    overflow: hidden;
 
     h1 {
     font-weight: bold;
@@ -51,34 +45,100 @@ body {
     
     }
 
-    .explainer {
-    background-color: $card-color;
-    width: 98%;
-    border: 2px solid;
-    border-radius: 10px;
-    padding: 16px;
-    box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
 
-    p {
-        margin: 0px;
-    }
-    }
-
-    .middle {
+    .blogposts {
         width: 98%;
         display: flex;
-        // align-items: center;
+        flex-direction: column;
+        align-items: center;
         justify-content: space-between;
+        margin: 0px;
         
+        .blogheads1 {
+            width: 25%;
+            overflow: hidden;
+        }
+        
+        .blogheads2 {
+            width: 25%;
+            overflow: hidden;
+        }
+
+        .blogheads3 {
+            width: 25%;
+            overflow: hidden;
+        }
+
+        .blogheads4 {
+            width: 25%;
+            overflow: hidden;
+        }
+
+        .blogheads5 {
+            width: 25%;
+            overflow: hidden;
+        }
        
     h2 {
         font-family: 'Quicksand', sans-serif;
         margin-right: 20px;
-        font-weight: 500;
+        font-weight: 700;
+        color: white;
+        font-size: 20px;
+        width: 25%;
+        margin: 0px 10px 10px 0px;
+    }
+
+    img {
+        height: 120px;
+        width: 120px;
+        border: white 2px solid;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 10px;
+
+    }
+
+    h3 {
+        color: white;
+        font-size: 14px;
+        font-family: 'Quicksand', sans-serif;
+        margin: 0px 10px 10px 0px;
+    }
+    
+    p {
+        width: 70%;
+        font-family: 'Quicksand', sans-serif;
+        margin: 0px 10px 10px 0px;
+    }
+
+    .blog1 {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .blog2 {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .blog3 {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .blog4 {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .blog5 {
+        display: flex;
+        align-items: flex-end;
     }
 }
     
+
     
 .navspec {   
         display: flex;
@@ -183,16 +243,25 @@ header {
 
 @media screen and (min-width: 600px) {
     
-    .middle {
+    .blogposts {
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
-        max-width: 70%;
+        // flex-wrap: wrap;
         font-size: 20px;
+
+        h2 {
+            font-size: 24px;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        
     }
-    .explainer {
-        max-width: 70%;
-    }
+    
+    
     .pagecard {
         max-width: 50%;
         h1 {
@@ -227,6 +296,10 @@ footer {
             i {
                 color: $resume-color;
                 font-size: 24px;
+                transition: color 1s;
+            }
+            i:hover {
+                color: $home-color;
             }
         }
         

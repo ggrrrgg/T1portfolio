@@ -1,0 +1,96 @@
+$home-color: #fac670;
+$backgroundpage-color: #ed7c7c;
+$education-color: #91C3CE;
+$resume-color: #000;
+$blog-color: #C0A8E6;
+$card-color: #DDD4C6;
+$headfoot-color:#F3ECD3;
+
+@mixin headfoot-proper () {
+    background-color: $headfoot-color;
+    width: 98%;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+    font-family:'Quicksand', sans-serif;
+    overflow: hidden;
+}
+
+body {
+    background-color: $resume-color;
+
+    .resume {
+        display: flex;
+        align-items: center;
+    object {width: 90%;
+    border-radius: 10px;
+    height: 100vh;
+    margin: auto;
+    
+
+    }
+}
+
+
+
+header {
+    @include headfoot-proper();
+    margin: 8px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+   
+    
+
+    .quickcontacts {
+        margin: 0px 10px 0px 0px;
+        }
+    
+    .headlogo {
+        display: flex;
+
+        .myname {
+            font-family: 'Quicksand', sans-serif;
+        }
+       img {
+            height: 40px;
+            width: 40px;
+        }
+       }
+    }
+
+    @media screen and (min-width: 600px) {
+        footer {
+            .socials {
+                width: 55%;
+                margin: auto;
+            }
+        }
+    }
+
+
+footer {
+    @include headfoot-proper(); 
+    box-sizing: border-box;
+    margin: 8px;
+    
+    .socials {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        a {
+            i {
+                color: $home-color;
+                font-size: 24px;
+                transition: color 1s;
+            }
+            i:hover {
+                color: $backgroundpage-color;
+            }
+        }
+        
+    }
+}
+}

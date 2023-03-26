@@ -1,0 +1,71 @@
+body {
+  background-color: #000;
+}
+body .resume {
+  display: flex;
+  align-items: center;
+}
+body .resume object {
+  width: 90%;
+  border-radius: 10px;
+  height: 100vh;
+  margin: auto;
+}
+body header {
+  background-color: #F3ECD3;
+  width: 98%;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  overflow: hidden;
+  margin: 8px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+body header .quickcontacts {
+  margin: 0px 10px 0px 0px;
+}
+body header .headlogo {
+  display: flex;
+}
+body header .headlogo .myname {
+  font-family: "Quicksand", sans-serif;
+}
+body header .headlogo img {
+  height: 40px;
+  width: 40px;
+}
+@media screen and (min-width: 600px) {
+  body footer .socials {
+    width: 55%;
+    margin: auto;
+  }
+}
+body footer {
+  background-color: #F3ECD3;
+  width: 98%;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 8px;
+}
+body footer .socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body footer .socials a i {
+  color: #fac670;
+  font-size: 24px;
+  transition: color 1s;
+}
+body footer .socials a i:hover {
+  color: #ed7c7c;
+}/*# sourceMappingURL=resume.css.map */

@@ -19,6 +19,7 @@ body .pagecard {
   padding: 20px;
   text-align: center;
   box-sizing: border-box;
+  overflow: hidden;
 }
 body .pagecard h1 {
   font-weight: bold;
@@ -33,6 +34,7 @@ body .explainer {
   padding: 16px;
   box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
+  overflow: hidden;
 }
 body .explainer p {
   margin: 0px;
@@ -42,10 +44,31 @@ body .middle {
   display: flex;
   justify-content: space-between;
 }
-body .middle h2 {
+body .middle .languages {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
   font-family: "Quicksand", sans-serif;
   margin-right: 20px;
   font-weight: 500;
+  color: white;
+}
+body .middle .languages ul {
+  letter-spacing: 0.2em;
+}
+body .middle .languages ul ::marker {
+  color: #fac670;
+  transition: color 1s;
+}
+body .middle .languages ul li:hover::marker {
+  color: #ed7c7c;
+}
+body .middle .languages ul li i {
+  color: white;
+  transition: color 1s;
+}
+body .middle .languages ul li i:hover {
+  color: #C0A8E6;
 }
 body .navspec {
   display: flex;
@@ -90,6 +113,7 @@ body header {
   padding: 10px;
   font-weight: 600;
   font-family: "Quicksand", sans-serif;
+  overflow: hidden;
   margin: 8px 8px 16px 8px;
   box-sizing: border-box;
   display: flex;
@@ -114,7 +138,6 @@ body header .headlogo img {
     align-items: flex-end;
     justify-content: space-between;
     max-width: 70%;
-    font-size: 20px;
   }
   body .explainer {
     max-width: 70%;
@@ -140,6 +163,7 @@ body footer {
   padding: 10px;
   font-weight: 600;
   font-family: "Quicksand", sans-serif;
+  overflow: hidden;
   box-sizing: border-box;
   margin-bottom: 8px;
 }
@@ -151,4 +175,8 @@ body footer .socials {
 body footer .socials a i {
   color: #C0A8E6;
   font-size: 24px;
+  transition: color 1s;
+}
+body footer .socials a i:hover {
+  color: #000;
 }/*# sourceMappingURL=education.css.map */

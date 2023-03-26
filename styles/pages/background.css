@@ -7,10 +7,6 @@ body {
   align-items: center;
   margin: 0px;
 }
-body .images img {
-  width: 150px;
-  height: 150px;
-}
 body .pagecard {
   background-color: #DDD4C6;
   width: 98%;
@@ -19,6 +15,7 @@ body .pagecard {
   padding: 20px;
   text-align: center;
   box-sizing: border-box;
+  overflow: hidden;
 }
 body .pagecard h1 {
   font-weight: bold;
@@ -33,19 +30,29 @@ body .explainer {
   padding: 16px;
   box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
+  overflow: hidden;
 }
 body .explainer p {
   margin: 0px;
 }
 body .middle {
-  width: 98%;
+  width: 100%;
   display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
   justify-content: space-between;
 }
-body .middle h2 {
-  font-family: "Quicksand", sans-serif;
-  margin-right: 20px;
-  font-weight: 500;
+body .middle .images img {
+  width: 150px;
+  height: 150px;
+}
+body .middle .images3 img {
+  width: 150px;
+  height: 150px;
+}
+body .middle .images2 img {
+  width: 150px;
+  height: 150px;
 }
 body .navspec {
   display: flex;
@@ -90,6 +97,7 @@ body header {
   padding: 10px;
   font-weight: 600;
   font-family: "Quicksand", sans-serif;
+  overflow: hidden;
   margin: 8px 8px 16px 8px;
   box-sizing: border-box;
   display: flex;
@@ -140,6 +148,7 @@ body footer {
   padding: 10px;
   font-weight: 600;
   font-family: "Quicksand", sans-serif;
+  overflow: hidden;
   box-sizing: border-box;
   margin-bottom: 8px;
 }
@@ -151,4 +160,8 @@ body footer .socials {
 body footer .socials a i {
   color: #91C3CE;
   font-size: 24px;
+  transition: color 1s;
+}
+body footer .socials a i:hover {
+  color: #C0A8E6;
 }/*# sourceMappingURL=background.css.map */

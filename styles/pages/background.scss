@@ -1,6 +1,7 @@
 $home-color: #fac670;
 $backgroundpage-color: #ed7c7c;
 $education-color: #91C3CE;
+$blog-color: #C0A8E6;
 $card-color: #DDD4C6;
 $headfoot-color:#F3ECD3;
 
@@ -12,6 +13,7 @@ $headfoot-color:#F3ECD3;
     padding: 10px;
     font-weight: 600;
     font-family:'Quicksand', sans-serif;
+    overflow: hidden;
 }
 
 body {
@@ -23,13 +25,7 @@ body {
     align-items: center;
     margin: 0px;
 
-    .images {
-        img {
-            width: 150px;
-            height: 150px;  
-        }
-          
-    }
+    
     
 
     .pagecard {
@@ -40,6 +36,7 @@ body {
     padding: 20px;
     text-align: center;
     box-sizing: border-box;
+    overflow: hidden;
 
     h1 {
     font-weight: bold;
@@ -57,6 +54,7 @@ body {
     padding: 16px;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
 
     p {
         margin: 0px;
@@ -64,17 +62,36 @@ body {
     }
 
     .middle {
-        width: 98%;
+        width: 100%;
         display: flex;
-        // align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
         justify-content: space-between;
-        
-       
-    h2 {
-        font-family: 'Quicksand', sans-serif;
-        margin-right: 20px;
-        font-weight: 500;
+      
+        .images {
+        img {
+            width: 150px;
+            height: 150px;  
+        }
+          
     }
+
+    .images3 {
+        img {
+            width: 150px;
+            height: 150px;  
+        }
+          
+    }
+
+    .images2 {
+        img {
+            width: 150px;
+            height: 150px;  
+        }
+          
+    }
+       
 }
     
     
@@ -225,6 +242,10 @@ footer {
             i {
                 color: $education-color;
                 font-size: 24px;
+                transition: color 1s;
+            }
+            i:hover {
+                color: $blog-color;
             }
         }
         
