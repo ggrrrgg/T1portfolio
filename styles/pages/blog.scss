@@ -85,7 +85,7 @@ body {
         margin-right: 20px;
         font-weight: 700;
         color: white;
-        font-size: 20px;
+        font-size: 16px;
         width: 25%;
         margin: 0px 10px 10px 0px;
     }
@@ -110,6 +110,7 @@ body {
     p {
         width: 70%;
         font-family: 'Quicksand', sans-serif;
+        font-size: 12px;
         margin: 0px 10px 10px 0px;
     }
 
@@ -254,6 +255,7 @@ header {
     
     .blogposts {
         display: flex;
+        flex-direction: column;
         align-items: flex-end;
         justify-content: space-between;
         // flex-wrap: wrap;

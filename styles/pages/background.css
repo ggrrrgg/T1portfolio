@@ -43,16 +43,16 @@ body .middle {
   justify-content: space-between;
 }
 body .middle .images img {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
 }
 body .middle .images3 img {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
 }
 body .middle .images2 img {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
 }
 body .navspec {
   display: flex;
