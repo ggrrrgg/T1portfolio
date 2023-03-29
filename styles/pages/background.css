@@ -67,6 +67,8 @@ body .navspec .home a {
   font-family: "Quicksand", sans-serif;
   font-weight: bolder;
   color: #fac670;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 body .navspec .edu a {
   text-decoration: none;
@@ -74,6 +76,8 @@ body .navspec .edu a {
   font-family: "Quicksand", sans-serif;
   font-weight: bolder;
   color: #91C3CE;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 body .navspec .blog a {
   text-decoration: none;
@@ -81,6 +85,8 @@ body .navspec .blog a {
   font-family: "Quicksand", sans-serif;
   font-weight: bolder;
   color: #C0A8E6;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 body .navspec .resume a {
   text-decoration: none;
@@ -88,6 +94,7 @@ body .navspec .resume a {
   font-family: "Quicksand", sans-serif;
   font-weight: bolder;
   color: #000;
+  letter-spacing: 0.1em;
 }
 body header {
   background-color: #F3ECD3;
@@ -96,6 +103,7 @@ body header {
   border-radius: 10px;
   padding: 10px;
   font-weight: 600;
+  font-size: 12px;
   font-family: "Quicksand", sans-serif;
   overflow: hidden;
   margin: 8px 8px 16px 8px;
@@ -113,8 +121,8 @@ body header .headlogo .myname {
   font-family: "Quicksand", sans-serif;
 }
 body header .headlogo img {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 @media screen and (min-width: 600px) {
   body .middle {
@@ -147,6 +155,7 @@ body footer {
   border-radius: 10px;
   padding: 10px;
   font-weight: 600;
+  font-size: 12px;
   font-family: "Quicksand", sans-serif;
   overflow: hidden;
   box-sizing: border-box;

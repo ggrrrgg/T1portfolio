@@ -12,6 +12,7 @@ $headfoot-color:#F3ECD3;
     border-radius: 10px;
     padding: 10px;
     font-weight: 600;
+    font-size: 12px;
     font-family:'Quicksand', sans-serif;
     overflow: hidden;
 }
@@ -135,6 +136,8 @@ body {
         font-family: 'Quicksand', sans-serif;
         font-weight: bolder;
         color: $home-color;
+        letter-spacing: 0.1em;
+        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
         }  
     }
     
@@ -145,6 +148,8 @@ body {
         font-family: 'Quicksand', sans-serif;
         font-weight: bolder;
         color: #91C3CE;
+        letter-spacing: 0.1em;
+        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
         }  
     }
 
@@ -155,6 +160,8 @@ body {
         font-family: 'Quicksand', sans-serif;
         font-weight: bolder;
         color: #C0A8E6;
+        letter-spacing: 0.1em;
+        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
         }  
     }
 
@@ -165,6 +172,8 @@ body {
         font-family: 'Quicksand', sans-serif;
         font-weight: bolder;
         color: #000;
+        letter-spacing: 0.1em;
+       
         }  
     }
 }
@@ -190,8 +199,8 @@ header {
             font-family: 'Quicksand', sans-serif;
         }
        img {
-            height: 40px;
-            width: 40px;
+            height: 30px;
+            width: 30px;
         }
        }
     }
