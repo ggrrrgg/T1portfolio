@@ -71,24 +71,24 @@ body {
       
         .images {
         img {
-            width: 140px;
-            height: 140px;  
+            width: 116px;
+            height: 116px;  
         }
           
     }
 
     .images3 {
         img {
-            width: 140px;
-            height: 140px;  
+            width: 116px;
+            height: 116px;  
         }
           
     }
 
     .images2 {
         img {
-            width: 140px;
-            height: 140px;  
+            width: 116px;
+            height: 116px;  
         }
           
     }
@@ -213,6 +213,27 @@ header {
         justify-content: space-between;
         max-width: 70%;
         font-size: 20px;
+
+        .images {
+            img {
+                height: 130px;
+                width: 130px;
+            }
+        }
+
+        .images2 {
+            img {
+                height: 130px;
+                width: 130px;
+            }
+        }
+
+        .images3 {
+            img {
+                height: 130px;
+                width: 130px;
+            }
+        }
     }
     .explainer {
         max-width: 70%;

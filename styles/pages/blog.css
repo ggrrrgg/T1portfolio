@@ -22,35 +22,28 @@ body .pagecard h1 {
   font-size: 24px;
   font-family: "Quicksand", sans-serif;
 }
-body .blogposts {
-  width: 98%;
+body main {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+body main .blogposts {
+  width: 98%;
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0px;
+  margin: 10px 0px 0px 0px;
 }
-body .blogposts .blogheads1 {
-  width: 25%;
-  overflow: hidden;
+body main .blogposts .titletext {
+  display: flex;
+  flex-direction: column;
 }
-body .blogposts .blogheads2 {
-  width: 25%;
-  overflow: hidden;
+body main .blogposts .blogimg {
+  display: flex;
+  align-self: flex-end;
 }
-body .blogposts .blogheads3 {
-  width: 25%;
-  overflow: hidden;
-}
-body .blogposts .blogheads4 {
-  width: 25%;
-  overflow: hidden;
-}
-body .blogposts .blogheads5 {
-  width: 25%;
-  overflow: hidden;
-}
-body .blogposts h2 {
+body main .blogposts h2 {
   font-family: "Quicksand", sans-serif;
   margin-right: 20px;
   font-weight: 700;
@@ -59,7 +52,7 @@ body .blogposts h2 {
   width: 25%;
   margin: 0px 10px 10px 0px;
 }
-body .blogposts img {
+body main .blogposts img {
   height: 120px;
   width: 120px;
   border: white 2px solid;
@@ -67,37 +60,253 @@ body .blogposts img {
   overflow: hidden;
   margin-bottom: 10px;
 }
-body .blogposts h3 {
+body main .blogposts h3 {
   color: white;
   font-size: 14px;
   font-family: "Quicksand", sans-serif;
   margin: 0px 10px 10px 0px;
 }
-body .blogposts p {
+body main .blogposts p {
+  background-color: #F3ECD3;
+  width: 98%;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: "Quicksand", sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
   width: 70%;
   font-family: "Quicksand", sans-serif;
   font-size: 12px;
   margin: 0px 10px 10px 0px;
 }
-body .blogposts .blog1 {
+body main .blogposts2 {
+  width: 98%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px 0px 0px;
 }
-body .blogposts .blog2 {
+body main .blogposts2 .titletext2 {
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
 }
-body .blogposts .blog3 {
+body main .blogposts2 .blogimg2 {
   display: flex;
-  align-items: flex-end;
+  align-self: flex-end;
 }
-body .blogposts .blog4 {
-  display: flex;
-  align-items: flex-end;
+body main .blogposts2 h2 {
+  font-family: "Quicksand", sans-serif;
+  margin-right: 20px;
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+  width: 25%;
+  margin: 0px 10px 10px 0px;
 }
-body .blogposts .blog5 {
+body main .blogposts2 img {
+  height: 120px;
+  width: 120px;
+  border: white 2px solid;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+body main .blogposts2 h3 {
+  color: white;
+  font-size: 14px;
+  font-family: "Quicksand", sans-serif;
+  margin: 0px 10px 10px 0px;
+}
+body main .blogposts2 p {
+  background-color: #F3ECD3;
+  width: 98%;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: "Quicksand", sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
   display: flex;
-  align-items: flex-end;
+  justify-content: space-between;
+  width: 70%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 12px;
+  margin: 0px 10px 10px 0px;
+}
+body main .blogposts3 {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px 0px 0px;
+}
+body main .blogposts3 .titletext3 {
+  display: flex;
+  flex-direction: column;
+}
+body main .blogposts3 .blogimg3 {
+  display: flex;
+  align-self: flex-end;
+}
+body main .blogposts3 h2 {
+  font-family: "Quicksand", sans-serif;
+  margin-right: 20px;
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+  width: 25%;
+  margin: 0px 10px 10px 0px;
+}
+body main .blogposts3 img {
+  height: 120px;
+  width: 120px;
+  border: white 2px solid;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+body main .blogposts3 h3 {
+  color: white;
+  font-size: 14px;
+  font-family: "Quicksand", sans-serif;
+  margin: 0px 10px 10px 0px;
+}
+body main .blogposts3 p {
+  background-color: #F3ECD3;
+  width: 98%;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: "Quicksand", sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 12px;
+  margin: 0px 10px 10px 0px;
+}
+body main .blogposts4 {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px 0px 0px;
+}
+body main .blogposts4 .titletext4 {
+  display: flex;
+  flex-direction: column;
+}
+body main .blogposts4 .blogimg4 {
+  display: flex;
+  align-self: flex-end;
+}
+body main .blogposts4 h2 {
+  font-family: "Quicksand", sans-serif;
+  margin-right: 20px;
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+  width: 25%;
+  margin: 0px 10px 10px 0px;
+}
+body main .blogposts4 img {
+  height: 120px;
+  width: 120px;
+  border: white 2px solid;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+body main .blogposts4 h3 {
+  color: white;
+  font-size: 14px;
+  font-family: "Quicksand", sans-serif;
+  margin: 0px 10px 10px 0px;
+}
+body main .blogposts4 p {
+  background-color: #F3ECD3;
+  width: 98%;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: "Quicksand", sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 12px;
+  margin: 0px 10px 10px 0px;
+}
+body main .blogposts5 {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px 0px 0px;
+}
+body main .blogposts5 .titletext5 {
+  display: flex;
+  flex-direction: column;
+}
+body main .blogposts5 .blogimg5 {
+  display: flex;
+  align-self: flex-end;
+}
+body main .blogposts5 h2 {
+  font-family: "Quicksand", sans-serif;
+  margin-right: 20px;
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+  width: 25%;
+  margin: 0px 10px 10px 0px;
+}
+body main .blogposts5 img {
+  height: 120px;
+  width: 120px;
+  border: white 2px solid;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+body main .blogposts5 h3 {
+  color: white;
+  font-size: 14px;
+  font-family: "Quicksand", sans-serif;
+  margin: 0px 10px 10px 0px;
+}
+body main .blogposts5 p {
+  background-color: #F3ECD3;
+  width: 98%;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: "Quicksand", sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 12px;
+  margin: 0px 10px 10px 0px;
 }
 body .navspec {
   display: flex;
@@ -170,20 +379,6 @@ body header .headlogo img {
   width: 30px;
 }
 @media screen and (min-width: 600px) {
-  body .blogposts {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-between;
-    font-size: 20px;
-  }
-  body .blogposts h2 {
-    font-size: 24px;
-  }
-  body .blogposts img {
-    width: 200px;
-    height: 200px;
-  }
   body .pagecard {
     max-width: 50%;
   }

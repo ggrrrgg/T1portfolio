@@ -43,16 +43,16 @@ body .middle {
   justify-content: space-between;
 }
 body .middle .images img {
-  width: 140px;
-  height: 140px;
+  width: 116px;
+  height: 116px;
 }
 body .middle .images3 img {
-  width: 140px;
-  height: 140px;
+  width: 116px;
+  height: 116px;
 }
 body .middle .images2 img {
-  width: 140px;
-  height: 140px;
+  width: 116px;
+  height: 116px;
 }
 body .navspec {
   display: flex;
@@ -131,6 +131,18 @@ body header .headlogo img {
     justify-content: space-between;
     max-width: 70%;
     font-size: 20px;
+  }
+  body .middle .images img {
+    height: 130px;
+    width: 130px;
+  }
+  body .middle .images2 img {
+    height: 130px;
+    width: 130px;
+  }
+  body .middle .images3 img {
+    height: 130px;
+    width: 130px;
   }
   body .explainer {
     max-width: 70%;
