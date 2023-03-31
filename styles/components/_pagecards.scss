@@ -1,0 +1,78 @@
+@import "../defaults/color";
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    
+    .pagecard {
+    background-color: $card-color;
+    width: 98%;
+    border: 2px solid; 
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+
+        h1 {
+        font-weight: bold;
+        font-size: 24px;
+        font-family: 'Quicksand', sans-serif;
+        }
+    }
+
+    .explainer {
+    background-color: $card-color;
+    width: 98%;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 16px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+        p {
+            margin: 0px;
+        }
+    }
+
+    .middle {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+        
+        h2 {
+            font-family: 'Quicksand', sans-serif;
+            margin-right: 20px;
+            font-weight: 500;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    
+    .middle {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        max-width: 70%;
+        font-size: 20px;
+    }
+    
+    .explainer {
+        max-width: 70%;
+    }
+    
+    .pagecard {
+        max-width: 50%;
+        h1 {
+            font-size: 38px;
+        }
+    }
+}

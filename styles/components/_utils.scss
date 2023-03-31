@@ -1,0 +1,11 @@
+@mixin headfoot-proper () {
+    background-color: $headfoot-color;
+    width: 98%;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    font-family:'Quicksand', sans-serif;
+    overflow: hidden;
+}

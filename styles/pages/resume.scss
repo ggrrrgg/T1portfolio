@@ -1,22 +1,4 @@
-$home-color: #fac670;
-$backgroundpage-color: #ed7c7c;
-$education-color: #91C3CE;
-$resume-color: #000;
-$blog-color: #C0A8E6;
-$card-color: #DDD4C6;
-$headfoot-color:#F3ECD3;
-
-@mixin headfoot-proper () {
-    background-color: $headfoot-color;
-    width: 98%;
-    border: 2px solid;
-    border-radius: 10px;
-    padding: 10px;
-    font-weight: 600;
-    font-size: 12px;
-    font-family:'Quicksand', sans-serif;
-    overflow: hidden;
-}
+@import "../defaults/color";@import "../components/utils";
 
 body {
     background-color: $resume-color;
@@ -24,7 +6,8 @@ body {
     .resume {
         display: flex;
         align-items: center;
-    object {width: 90%;
+    object {
+        width: 90%;
     border-radius: 10px;
     height: 100vh;
     margin: auto;
@@ -32,8 +15,6 @@ body {
 
     }
 }
-
-
 
 header {
     @include headfoot-proper();

@@ -1,0 +1,35 @@
+@import "../defaults/color";
+@import "./utils";
+
+footer {
+    @include headfoot-proper(); 
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    
+    .socials {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        a {
+            i {
+                color: $backgroundpage-color;
+                font-size: 24px;
+                transition: color 1s;
+            }
+            i:hover {
+                color: $education-color;
+            }
+        }
+        
+    }
+}
+
+@media screen and (min-width: 600px) {
+    footer {
+        .socials {
+            width: 55%;
+            margin: auto;
+        }
+    }
+}

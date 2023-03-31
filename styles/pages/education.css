@@ -1,15 +1,124 @@
+header {
+  background-color: #F3ECD3;
+  width: 98%;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: "Quicksand", sans-serif;
+  overflow: hidden;
+  margin: 8px 8px 16px 8px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+header .quickcontacts {
+  margin: 0px 10px 0px 0px;
+}
+header .headlogo {
+  display: flex;
+}
+header .headlogo .myname {
+  font-family: "Quicksand", sans-serif;
+}
+header .headlogo img {
+  height: 30px;
+  width: 30px;
+}
+
+footer {
+  background-color: #F3ECD3;
+  width: 98%;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: "Quicksand", sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+footer .socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .socials a i {
+  color: #ed7c7c;
+  font-size: 24px;
+  transition: color 1s;
+}
+footer .socials a i:hover {
+  color: #91C3CE;
+}
+
+@media screen and (min-width: 600px) {
+  footer .socials {
+    width: 55%;
+    margin: auto;
+  }
+}
+.navspec {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 98%;
+}
+.navspec .home a {
+  text-decoration: none;
+  font-size: 26px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  color: #fac670;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.navspec .backg a {
+  text-decoration: none;
+  font-size: 26px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  color: #ed7c7c;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.navspec .edu a {
+  text-decoration: none;
+  font-size: 26px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  color: #91C3CE;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.navspec .blog a {
+  text-decoration: none;
+  font-size: 26px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  color: #C0A8E6;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.navspec .resume a {
+  text-decoration: none;
+  font-size: 26px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  color: #000;
+  letter-spacing: 0.1em;
+}
+
 body {
-  background-color: #91C3CE;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin: 0px;
-}
-body .images img {
-  width: 150px;
-  height: 150px;
 }
 body .pagecard {
   background-color: #DDD4C6;
@@ -34,6 +143,7 @@ body .explainer {
   padding: 16px;
   box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
+  margin-bottom: 10px;
   overflow: hidden;
 }
 body .explainer p {
@@ -44,7 +154,38 @@ body .middle {
   display: flex;
   justify-content: space-between;
 }
-body .middle .languages {
+body .middle h2 {
+  font-family: "Quicksand", sans-serif;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 600px) {
+  .middle {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 70%;
+    font-size: 20px;
+  }
+  .explainer {
+    max-width: 70%;
+  }
+  .pagecard {
+    max-width: 50%;
+  }
+  .pagecard h1 {
+    font-size: 38px;
+  }
+}
+body {
+  background-color: #91C3CE;
+}
+body .images img {
+  width: 150px;
+  height: 150px;
+}
+body .languages {
   display: flex;
   flex-direction: column;
   font-size: 20px;
@@ -53,139 +194,35 @@ body .middle .languages {
   font-weight: 500;
   color: white;
 }
-body .middle .languages ul {
+body .languages ul {
   letter-spacing: 0.2em;
 }
-body .middle .languages ul ::marker {
+body .languages ul ::marker {
   color: #fac670;
   transition: color 1s;
 }
-body .middle .languages ul li:hover::marker {
+body .languages ul li:hover::marker {
   color: #ed7c7c;
 }
-body .middle .languages ul li i {
+body .languages ul li i {
   color: white;
   transition: color 1s;
 }
-body .middle .languages ul li i:hover {
+body .languages ul li i:hover {
   color: #C0A8E6;
 }
-body .navspec {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
-  width: 98%;
-}
-body .navspec .home a {
-  text-decoration: none;
-  font-size: 26px;
-  font-family: "Quicksand", sans-serif;
-  font-weight: bolder;
-  color: #fac670;
-  letter-spacing: 0.1em;
-  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-}
-body .navspec .backg a {
-  text-decoration: none;
-  font-size: 26px;
-  font-family: "Quicksand", sans-serif;
-  font-weight: bolder;
-  color: #ed7c7c;
-  letter-spacing: 0.1em;
-  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-}
-body .navspec .blog a {
-  text-decoration: none;
-  font-size: 26px;
-  font-family: "Quicksand", sans-serif;
-  font-weight: bolder;
-  color: #C0A8E6;
-  letter-spacing: 0.1em;
-  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-}
-body .navspec .resume a {
-  text-decoration: none;
-  font-size: 26px;
-  font-family: "Quicksand", sans-serif;
-  font-weight: bolder;
-  color: #000;
-  letter-spacing: 0.1em;
-}
-body header {
-  background-color: #F3ECD3;
-  width: 98%;
-  border: 2px solid;
-  border-radius: 10px;
-  padding: 10px;
-  font-weight: 600;
-  font-size: 12px;
-  font-family: "Quicksand", sans-serif;
-  overflow: hidden;
-  margin: 8px 8px 16px 8px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-}
-body header .quickcontacts {
-  margin: 0px 10px 0px 0px;
-}
-body header .headlogo {
-  display: flex;
-}
-body header .headlogo .myname {
-  font-family: "Quicksand", sans-serif;
-}
-body header .headlogo img {
-  height: 30px;
-  width: 30px;
-}
+
 @media screen and (min-width: 600px) {
-  body .middle {
+  .middle {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     max-width: 70%;
   }
-  body .explainer {
-    max-width: 70%;
-  }
-  body .pagecard {
-    max-width: 50%;
-  }
-  body .pagecard h1 {
-    font-size: 38px;
-  }
 }
-@media screen and (min-width: 600px) {
-  body footer .socials {
-    width: 55%;
-    margin: auto;
-  }
-}
-body footer {
-  background-color: #F3ECD3;
-  width: 98%;
-  border: 2px solid;
-  border-radius: 10px;
-  padding: 10px;
-  font-weight: 600;
-  font-size: 12px;
-  font-family: "Quicksand", sans-serif;
-  overflow: hidden;
-  box-sizing: border-box;
-  margin-bottom: 8px;
-}
-body footer .socials {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-body footer .socials a i {
+footer .socials a i {
   color: #C0A8E6;
-  font-size: 24px;
-  transition: color 1s;
 }
-body footer .socials a i:hover {
+footer .socials a i:hover {
   color: #000;
 }/*# sourceMappingURL=education.css.map */

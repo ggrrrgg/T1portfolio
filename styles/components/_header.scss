@@ -1,0 +1,25 @@
+@import "./utils";
+
+header {
+    @include headfoot-proper();
+    margin: 8px 8px 16px 8px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+   
+    .quickcontacts {
+        margin: 0px 10px 0px 0px;
+        }
+    
+    .headlogo {
+        display: flex;
+
+        .myname {
+            font-family: 'Quicksand', sans-serif;
+        }
+       img {
+            height: 30px;
+            width: 30px;
+        }
+    }
+}
