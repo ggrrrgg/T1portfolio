@@ -1,16 +1,20 @@
+/* Main page colour */
 body {
   background-color: #000;
 }
+/* Resume container */
 body .resume {
   display: flex;
   align-items: center;
 }
+/* Resume object */
 body .resume object {
   width: 90%;
   border-radius: 10px;
   height: 100vh;
   margin: auto;
 }
+/* Header, all as in index css */
 body header {
   background-color: #F3ECD3;
   width: 98%;
@@ -39,6 +43,7 @@ body header .headlogo img {
   height: 40px;
   width: 40px;
 }
+/* Footer, all as in index css */
 @media screen and (min-width: 600px) {
   body footer .socials {
     width: 55%;
@@ -63,6 +68,7 @@ body footer .socials {
   justify-content: space-around;
   align-items: center;
 }
+/* Footer icon colour transition */
 body footer .socials a i {
   color: #fac670;
   font-size: 24px;

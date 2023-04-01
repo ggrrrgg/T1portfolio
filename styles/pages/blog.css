@@ -1,3 +1,4 @@
+/* Header, all as in index css */
 header {
   background-color: #F3ECD3;
   width: 98%;
@@ -26,7 +27,7 @@ header .headlogo img {
   height: 30px;
   width: 30px;
 }
-
+/* Footer, all as in index css */
 footer {
   background-color: #F3ECD3;
   width: 98%;
@@ -45,6 +46,7 @@ footer .socials {
   justify-content: space-around;
   align-items: center;
 }
+/* Footer colour transition */
 footer .socials a i {
   color: #ed7c7c;
   font-size: 24px;
@@ -60,6 +62,7 @@ footer .socials a i:hover {
     margin: auto;
   }
 }
+/* Navigation, all as in index css */
 .navspec {
   display: flex;
   flex-direction: column;
@@ -178,41 +181,14 @@ body .middle h2 {
     font-size: 38px;
   }
 }
-header {
-  background-color: #F3ECD3;
-  width: 98%;
-  border: 2px solid;
-  border-radius: 10px;
-  padding: 10px;
-  font-weight: 600;
-  font-size: 12px;
-  font-family: "Quicksand", sans-serif;
-  overflow: hidden;
-  margin: 8px 8px 16px 8px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-}
-header .quickcontacts {
-  margin: 0px 10px 0px 0px;
-}
-header .headlogo {
-  display: flex;
-}
-header .headlogo .myname {
-  font-family: "Quicksand", sans-serif;
-}
-header .headlogo img {
-  height: 30px;
-  width: 30px;
-}
-
+/* Main section containing 5 blogposts, all the same properties */
 body main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
+/* Blogpost1 */
 body main .blogposts {
   width: 98%;
   display: flex;
@@ -269,6 +245,7 @@ body main .blogposts p {
   font-size: 12px;
   margin: 0px 10px 10px 0px;
 }
+/* Blogpost 2 */
 body main .blogposts2 {
   width: 98%;
   display: flex;
@@ -325,6 +302,7 @@ body main .blogposts2 p {
   font-size: 12px;
   margin: 0px 10px 10px 0px;
 }
+/* Blogpost 3 */
 body main .blogposts3 {
   width: 98%;
   display: flex;
@@ -381,6 +359,7 @@ body main .blogposts3 p {
   font-size: 12px;
   margin: 0px 10px 10px 0px;
 }
+/* Blogpost 4 */
 body main .blogposts4 {
   width: 98%;
   display: flex;
@@ -437,6 +416,7 @@ body main .blogposts4 p {
   font-size: 12px;
   margin: 0px 10px 10px 0px;
 }
+/* Blogpost 5 */
 body main .blogposts5 {
   width: 98%;
   display: flex;
@@ -493,10 +473,11 @@ body main .blogposts5 p {
   font-size: 12px;
   margin: 0px 10px 10px 0px;
 }
-
+/* Main ppage colour */
 body {
   background-color: #C0A8E6;
 }
+/* Footer colour transition */
 body footer .socials a i {
   color: #000;
 }

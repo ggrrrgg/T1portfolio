@@ -1,3 +1,4 @@
+/* Header, all as in index css */
 header {
   background-color: #F3ECD3;
   width: 98%;
@@ -26,7 +27,7 @@ header .headlogo img {
   height: 30px;
   width: 30px;
 }
-
+/* Footer, all as in index css */
 footer {
   background-color: #F3ECD3;
   width: 98%;
@@ -60,6 +61,7 @@ footer .socials a i:hover {
     margin: auto;
   }
 }
+/* Navigation properties, all as in index css */
 .navspec {
   display: flex;
   flex-direction: column;
@@ -111,7 +113,7 @@ footer .socials a i:hover {
   color: #000;
   letter-spacing: 0.1em;
 }
-
+/* Main body properties */
 body {
   min-height: 100vh;
   display: flex;
@@ -135,6 +137,7 @@ body .pagecard h1 {
   font-size: 24px;
   font-family: "Quicksand", sans-serif;
 }
+/* Text box properties */
 body .explainer {
   background-color: #DDD4C6;
   width: 98%;
@@ -149,6 +152,7 @@ body .explainer {
 body .explainer p {
   margin: 0px;
 }
+/* Middle section properties */
 body .middle {
   width: 98%;
   display: flex;
@@ -159,7 +163,7 @@ body .middle h2 {
   margin-right: 20px;
   font-weight: 500;
 }
-
+/* Breakpoint changes */
 @media screen and (min-width: 600px) {
   .middle {
     display: flex;
@@ -178,9 +182,11 @@ body .middle h2 {
     font-size: 38px;
   }
 }
+/* Page colour */
 body {
   background-color: #ed7c7c;
 }
+/* Middle section graphic properties */
 body .middle {
   width: 100%;
   display: flex;
@@ -200,6 +206,7 @@ body .middle .images2 img {
   width: 116px;
   height: 116px;
 }
+/* Graphic breakpoint changes */
 @media screen and (min-width: 600px) {
   body .middle {
     display: flex;
@@ -221,6 +228,7 @@ body .middle .images2 img {
     width: 130px;
   }
 }
+/* Footer colour transition */
 body footer .socials a i {
   color: #91C3CE;
 }

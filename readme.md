@@ -1,5 +1,7 @@
 ## Website URL - 
 
+https://georgesheridant1a1.netlify.app/
+
 ## Github repo - 
 
 https://github.com/ggrrrgg/T1portfolio
@@ -11,15 +13,28 @@ https://github.com/ggrrrgg/T1portfolio
 
 ## Purpose
 
-    My website is designed to be an online showcase of my web development skills as well as an information resource for any prospective employers who wish to get a broad picture of my skilset, experience, and what I'm about.
+    My website is designed to be an online showcase of my web development skills as well as an information resource for any prospective employers who wish to get a broad picture of my skillset, experience, and what I'm about.
 
 ## Functionality / Features
 
-    The functionality / feautures of my site is pretty simple, it consists of 5 pages with some basic text information and graphic assistance, and a navigation bar. The nav section at the bottom right of the page is colour coded to the background colour of each page for a simple user experience. In addition, the smiley face logo in the top right of the header on each page returns you to the homepage.
+    The functionality / feautures of my site is pretty simple, it consists of 5 pages with a common layout and styling. Each page has a header and footer, some basic text information with graphical aids, and a navigation bar. 
+    
+    The navigation bar is at the bottom right of each page, each page link is colour coded to the background colour of its corresponding page for a more simple and intuitive user experience. 
+    
+    The header contains a smiley face logo in the top right which returns you to the homepage.
+    
+    The footer contains links to Github, LinkedIn, and Instagram in the form of icons that transition in colour when you hover over them.
+
+    The Education page contains a list of coding languages that have colour transitioning bullet points and icons.
+
+    The resume page has an object insertion of a pdf file.
+
+    Each page is also responsive to display on mobile, tablet, and desktop screensizes.
+
 
 ## Sitemap
 
-
+[Sitemap link](Sitemapedit.drawio.xml)
 
 ## Screenshots
 
@@ -29,4 +44,9 @@ https://github.com/ggrrrgg/T1portfolio
 
 ## Tech Stack
 
-
+    HTML
+    CSS
+    SCSS
+    Markdown
+    Github
+    Netlify

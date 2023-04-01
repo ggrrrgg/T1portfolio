@@ -1,3 +1,4 @@
+/* Header, all as in index css */
 header {
   background-color: #F3ECD3;
   width: 98%;
@@ -26,7 +27,7 @@ header .headlogo img {
   height: 30px;
   width: 30px;
 }
-
+/* Footer, all as in index css */
 footer {
   background-color: #F3ECD3;
   width: 98%;
@@ -60,6 +61,7 @@ footer .socials a i:hover {
     margin: auto;
   }
 }
+/* Navigation, all as in index css */
 .navspec {
   display: flex;
   flex-direction: column;
@@ -111,7 +113,7 @@ footer .socials a i:hover {
   color: #000;
   letter-spacing: 0.1em;
 }
-
+/* Main body properties, all as in index css */
 body {
   min-height: 100vh;
   display: flex;
@@ -159,7 +161,7 @@ body .middle h2 {
   margin-right: 20px;
   font-weight: 500;
 }
-
+/* Breakpoint properties for middle section */
 @media screen and (min-width: 600px) {
   .middle {
     display: flex;
@@ -178,6 +180,7 @@ body .middle h2 {
     font-size: 38px;
   }
 }
+/* Main page colour */
 body {
   background-color: #91C3CE;
 }
@@ -185,6 +188,7 @@ body .images img {
   width: 150px;
   height: 150px;
 }
+/* List of code languages */
 body .languages {
   display: flex;
   flex-direction: column;
@@ -194,6 +198,7 @@ body .languages {
   font-weight: 500;
   color: white;
 }
+/* Colour transitions for bullet points and icons */
 body .languages ul {
   letter-spacing: 0.2em;
 }
@@ -211,7 +216,7 @@ body .languages ul li i {
 body .languages ul li i:hover {
   color: #C0A8E6;
 }
-
+/* Breakpoint changes for list and graphic */
 @media screen and (min-width: 600px) {
   .middle {
     display: flex;
@@ -220,6 +225,7 @@ body .languages ul li i:hover {
     max-width: 70%;
   }
 }
+/* Footer icon colour transitions */
 footer .socials a i {
   color: #C0A8E6;
 }
